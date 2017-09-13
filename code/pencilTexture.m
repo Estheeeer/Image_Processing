@@ -23,7 +23,7 @@
 
 function T = pencilTexture(img, P, J, theta)
 
-    % im = imread('flower.png');
+    % img = imread('flower.png');
 
     % P = im2double(rgb2gray(imread('tonalTexture.png')));
     % P = imresize(P, [len wid]);
