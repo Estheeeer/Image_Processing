@@ -56,6 +56,7 @@ function J = toneDrawing(img, weightRat)
         p(v+1) = omega1*p1 + omega2*p2 + omega3*p3;
         tot = tot+p(v+1);   
     end
+    
     % normalization
     p = p/tot; 
 
